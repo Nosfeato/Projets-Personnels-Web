@@ -1,0 +1,115 @@
+
+
+.first_section{
+    max-width: 100%;
+    height: 1000px;
+    background-image: url(assets/img/beach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 26% 0px 15%  ; 
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 2px rgb(88, 88, 88);
+}
+
+#intro, span{
+    font-size: 21px;
+}
+
+#left_form, #right_form{
+    border-radius: 8px;
+}
+
+#left_form{
+    float: left;
+    max-width:385px;
+    width: 385px;
+    padding: 40px;
+    display: block;
+    background-color:white;
+    text-shadow: none;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    background: #FFF;
+    line-height: 1.15;
+}
+form{
+    border-radius:5px;
+    width: 350px;
+    max-width: 350px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.first_input, .second_input, .third_input, .fourth_input, #passagers{
+    width: 100%;
+    height: 40px;
+    background: no-repeat;
+    border: 1px solid #DCE3E6;
+
+}
+
+.first_input, .second_input, .third_input, .fourth_input{
+    border: none;
+    background-position: 5px 50%;
+    background-color: rgb(247, 247, 247);
+    padding: 0px 0px 0px 30px;
+    font-size: 14px;
+}
+
+.first_input, .third_input{
+    border-radius: .3125em .3125em 0px 0px;
+    background-image: url(assets/img/departure_icon.png);
+}
+
+.second_input, .fourth_input{
+    margin-bottom: 29px;
+    border-radius: 0px 0px .3125em .3125em;
+    background-image: url(assets/img/arrival_icon.png);
+}
+.third_input{
+    background-image: url(assets/img/aller.png);
+
+}
+.fourth_input{
+    background-image: url(assets/img/retour.png);
+
+}
+#passagers{
+    width:100%;
+    margin-top: 30px;
+    margin-bottom:30px;
+    background-color: white;
+    border-radius: .3125em; 
+}
+
+.reduction{
+    color:rgb(60, 195, 159);
+    font-size: 12px;
+}
+#recherche{
+    float: right;
+    height: 40px;
+    width: 180px;
+    background-color:rgb(60, 195, 159);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 11.3px;
+    box-shadow: 0px 1px rgb(41, 41, 41);
+}
+
+
+#right_form{
+    float: right;
+    max-width:480px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    text-shadow: none;
+    color: black;
+    text-align: left;
+}
