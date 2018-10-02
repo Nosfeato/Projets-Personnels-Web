@@ -1,0 +1,97 @@
+
+
+#page_1{
+	background-color: #060606;
+	margin: 0;
+	padding: 0;
+}
+main{
+	position:absolute;
+	top:48%;
+	left: 48%;
+	transform: translate(-50%,-50%);
+	width: 500px;
+	height: 500px;
+}
+#start{
+	position: absolute;
+	font-size: 18px;
+	font-weight: bolder;
+	background-color: black;
+	border: 4px solid #080808;
+	color: white;
+	border-radius: 100%;
+	width: 60%;
+	height: 60%;
+	overflow: hidden;
+	margin:20%;
+	outline: none;
+}
+
+#start:before{
+	content:"";
+	position: absolute;
+	top: 0;
+	left: -250px;
+	width: 100px;
+	height: 100%;
+	background: rgba(255,255,255,0.3);
+	transform: skewX(-30deg) translate(80px);
+	transition: 0.5s;
+}
+#start:hover:before{
+	left: 250px;
+}
+
+.popup{
+	display: none;
+}
+#start:hover ~ .popup{
+	display: block;
+}
+
+#news{
+	position:relative;
+	float: right;
+	background-color: black;
+	border-radius: 100%;
+	width: 30%;
+	height: 30%;
+	border: 4px solid #080808;
+}
+
+#store{
+	position:relative;
+	float: left;
+	background-color: black;
+	border-radius: 100%;
+	width: 30%;
+	height: 30%;
+	border: 4px solid #080808;
+}
+#contact{
+	position:absolute;
+	bottom: 0px;
+	left:0px;
+	background-color: black;
+	border-radius: 100%;
+	width: 30%;
+	height: 30%;
+	border: 4px solid #080808;
+}
+
+#about{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	background-color: black;
+	border-radius: 100%;
+	width: 30%;
+	height: 30%;
+	border: 4px solid #080808;
+}
+
+a.noLinkColor{
+	text-decoration: none;
+	color: white;
+}
