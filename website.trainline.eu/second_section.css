@@ -1,0 +1,32 @@
+.second_section{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+}
+.grey_background{
+    background-color: rgb(243, 243, 243);
+}
+
+.advertisement{
+    display: inline-block;
+    width: 25%;
+    height: 500px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 1px solid black;
+        background-image: url(assets/img/photo_couple.png);
+        background-repeat: no-repeat;
+}
+div .image1{
+    background-image: url(assets/img/photo_couple.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div .image2{
+    background-image: url(assets/img/photo_trains.png);
+    background-size: cover;
+}
+div .image3{
+    background-image: url(assets/img/rails.png);
+    background-size: cover;
+}

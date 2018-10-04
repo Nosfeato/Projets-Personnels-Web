@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="first_section.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="second_section.css" />
     <script src="main.js"></script>
 </head>
 <body>
@@ -49,51 +50,89 @@
                     <input class="third_input" type="text" placeholder="Aller" name="aller"> <br>
                     <input class="fourth_input" type="text" placeholder="Retour" name="retour">
                 </form>
-                <button id="passagers">
-                    <img src="assets/img/passagers.png">
-                    1 Adulte (26-59)
-                    <img src="assets/img/+_icon.png">                
+                <button id="passagers">                    
+                    <span><img class="passengers" src="assets/img/passengers.png"> 1 Adulte (26-59) <img class="icon" src="assets/img/+_icon.png"></span>            
                 </button>
 
 
 
-                <div class="reduction">utiliser un code de réduction <button id="recherche">RECHERCHER</button></div>
+                <div>
+                    <span class="reduction">utiliser un code de réduction</span>
+                    <button id="recherche">RECHERCHER</button>
+                </div>
             
             </div>
 
 
         <!----------Right Side Div------------------>
-            <div id="right_form">
+            <table id="right_form">
 
             
-                <h1>Les petits plus de Trainline</h1>
+                <tr><td><h1>Les petits plus de Trainline</h1></td></tr>
 
-                <p>
-                    <img src="ticket_icon.png"> <h6>Vos billets au meilleur prix</h6> 
-                    Achetez vos billets aux prix fixés par les transporteurs, sans frais supplémentaires.                
-                </p>
+                <tr>
+                    <td>
+                    <img src="ticket_icon.png"> </td><td><h6>Vos billets au meilleur prix</h6> 
+                    Achetez vos billets aux prix fixés par les transporteurs, sans frais supplémentaires.</td>
+                
+                </tr>
 
-                <p>
-                    <img src="reduction_icon.png">
+                <tr>
+                    <td>
+                    <img src="reduction_icon.png"></td>
+                    <td>
                     <h6>Cartes de réduction</h6>
-                    Elles sont toutes acceptées, comme vos cartes de fidélité.
-                </p>
-
-                <p>
-                    <img src="card_icon.png">
+                    Elles sont toutes acceptées, comme vos cartes de fidélité.</td>
+                    
+                    </tr>
+                <tr>
+                    <td>
+                    <img src="card_icon.png"></td>
+                    <td>
                     <h6>Cartes de réduction</h6>
-                    CV,Amex,PayPal,Chèques-Vacances ANV:c'est vous qui voyez.            
-                </p>
+                    CV,Amex,PayPal,Chèques-Vacances ANV:c'est vous qui voyez. </td>
+                    
+                    </tr>
 
-                <textarea>L'app leader pour voyager en train et en bus en Europe</textarea>
+                <tr><td>
+                    <tr>L'app leader pour voyager en train et en bus en Europe</tr>
+                    <tr><button><img src="appStore.png"></button><button><img src="googlePlay.png"></button></tr></td>
+                </tr>
 
-                <p>
-                    L'app leader pour voyager en train et en bus en Europe
-                    <button><img src="appStore.png"></button>      <button><img src="googlePlay.png"></button>            
-                </p>
+            </table>
+           
+
+        </section>
+        <section class="second_section">
+            <div>Ils Nous font confiance. Nous vendons leurs billets
+            </div>
+                <img src="partenaires_icons.png">
+            <div>
+                <h1>Tous les billets. Un seul guichet.</h1>
+                <span> Nous vendons tous les billets que vous avez l'habitude d'acheter en France<br> et tout ceux dont vous pourriez avoir besoin à l'étranger</span>
+            </div>
+            <div class="grey_background">
+            <div class="advertisement" class="image1">
+            </div>
+            <div class="advertisement">
+                <h1>C'est simple et c'est tout</h1>
+                <span> Consultez les horaires des trains et le prix des <br> billets dans une interface claire. Nous comparons <br> les prix de plusieurs transporteurs, pour que vous<br> n'ayez pas à le faire</span>
+            </div>
+            <div class="advertisement">
+                <h1>La très grande vitesse. Dès l'achat du billet.</h1>
+                <span>Trouvez et payez vos billets sur notre site en moins <br> de temps qu'il n'en faut pour perdre patience sur <br> un site ordinaire.Soit à peu près 58 secondes.</span>
+            </div>
+            <div class="advertisement" class="image2">
 
             </div>
+            <div class="advertisement" class="image3">
 
+            </div>
+            <div class="advertisement">
+                <h1>Sans pub et sans reproche.</h1>
+                <span>En choisissant de ne vendre que les billets, nous<br>avons dû laisser certaines choses de côté comme<br>les publicités, les messages et les erreurs<br>incompréhensibles</span>
+            </div>
+            </div>
         </section>
 
     </main>

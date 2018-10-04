@@ -24,7 +24,9 @@
 #left_form{
     float: left;
     max-width:385px;
-    width: 385px;
+    min-width: 350px;
+    width: 37%;
+    margin-right: 30px;
     padding: 40px;
     display: block;
     background-color:white;
@@ -32,19 +34,17 @@
     color: black;
     text-align: left;
     font-size: 20px;
-    background: #FFF;
+    background-color: #FFF;
     line-height: 1.15;
 }
 form{
     border-radius:5px;
-    width: 350px;
-    max-width: 350px;
+    width: 90%;
     height: 80px;
     margin-top: 30px;
 }
 
 .first_input, .second_input, .third_input, .fourth_input, #passagers{
-    width: 100%;
     height: 40px;
     background: no-repeat;
     border: 1px solid #DCE3E6;
@@ -52,11 +52,12 @@ form{
 }
 
 .first_input, .second_input, .third_input, .fourth_input{
-    border: none;
+    border: 0.5px solid rgb(235, 235, 235);
     background-position: 5px 50%;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(252, 252, 252);
     padding: 0px 0px 0px 30px;
-    font-size: 14px;
+    font-size: 70%;
+    width: 100%;
 }
 
 .first_input, .third_input{
@@ -78,16 +79,38 @@ form{
 
 }
 #passagers{
-    width:100%;
+    width:98%;
+    height: 40px;
     margin-top: 30px;
     margin-bottom:30px;
     background-color: white;
     border-radius: .3125em; 
 }
+#passagers span{
+    width: 100%;
+    height: 100%;
+    float:left;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: middle;
+}
 
+.passengers{
+    float:left;
+    margin-right: 10px;
+}
+
+.icon{
+    float:right;
+    width: 10%;
+    height: 100%;
+    border-left: 1px solid rgb(235, 235, 235);;  
+}
 .reduction{
+    width: 100%;
     color:rgb(60, 195, 159);
     font-size: 12px;
+    vertical-align: middle;
 }
 #recherche{
     float: right;
@@ -103,13 +126,16 @@ form{
 
 
 #right_form{
-    float: right;
     max-width:480px;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
+    width: 37%;
     background-color:white;
     text-shadow: none;
     color: black;
     text-align: left;
+}
+
+#right_form h1{
+    font-size: 80%;
+    color: white;
+    background-color: rgb(17, 16, 70);
 }
