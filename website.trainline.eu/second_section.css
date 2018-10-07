@@ -3,30 +3,52 @@
     height: 1000px;
     background-color: white;
 }
-.grey_background{
-    background-color: rgb(243, 243, 243);
+#second_section_header{
+    color: black;
+    background-color:white;
+    clear: both;
 }
 
-.advertisement{
-    display: inline-block;
-    width: 25%;
-    height: 500px;
+
+.grey_background{
+    background-color: rgb(243, 243, 243);
     padding-left: 10%;
     padding-right: 10%;
-    border: 1px solid black;
-        background-image: url(assets/img/photo_couple.png);
-        background-repeat: no-repeat;
+    height: 1500px;
+    display: grid;
+    grid-template-areas: 
+        "picture1 text1"
+        "text2 picture2"
+        "picture3 text3";
 }
-div .image1{
-    background-image: url(assets/img/photo_couple.png);
-    background-size: cover;
+
+.text1, .text2, .text3{
+    margin: auto;
+}
+
+#image1, #image2, #image3{
     background-repeat: no-repeat;
+    background-size: cover;
 }
-div .image2{
+#image1{
+    background-image: url(assets/img/photo_couple.png);
+    grid-area: picture1;
+}
+.text1{
+    grid-area: text1;
+}
+.text2{
+    grid-area: text2;
+}
+#image2{
     background-image: url(assets/img/photo_trains.png);
-    background-size: cover;
+    grid-area: picture2;
 }
-div .image3{
-    background-image: url(assets/img/rails.png);
-    background-size: cover;
+#image3{
+    background-image: url(assets/img/photo_rails.png);
+    grid-area: picture3;
 }
+.text3{
+    grid-area: text3;
+}
+
