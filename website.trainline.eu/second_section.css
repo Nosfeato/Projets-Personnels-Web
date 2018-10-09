@@ -1,14 +1,25 @@
-.second_section{
+#second_section{
     width: 100%;
     height: 1000px;
     background-color: white;
+    text-align: center;
 }
 #second_section_header{
     color: black;
     background-color:white;
     clear: both;
 }
+#second_section .header{
+    margin-top: 80px; 
+    margin-bottom: 80px;   
+}
 
+#second_section .header h1{
+    font-size: 30px;
+}
+#second_section .header span{
+    font-size: 18px;
+}
 
 .grey_background{
     background-color: rgb(243, 243, 243);
