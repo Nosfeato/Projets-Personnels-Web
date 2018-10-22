@@ -1,7 +1,7 @@
 #third_section{
     display: block;
     box-sizing: border-box;
-    height: 350px;
+    height: 400px;
     width: 100%;
     background-color: white;
     text-align: center;
@@ -16,8 +16,12 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    height: 65%;
-    border-color: grey;
+    border: 1px solid black;
+}
+#third_section table tr td{
+}
+#third_section table tr td:first-child{
+    border-right: 1px solid;
 }
 #third_section table tr:nth-of-type(3) td{
     width: 30%;

@@ -6,7 +6,7 @@ body, html{
 
 header{
 
-    background-color: rgba(33, 49, 77, 0.918);
+    background-color: rgb(62, 78, 107);
     height: 2.5em;
     width: 100%;
     color: white;
@@ -55,7 +55,7 @@ header{
     min-width: 155px;
     max-width: 155px;
     border-radius: 5px;
-    background-color:rgb(60, 195, 159);
+    background-color: #01C3A7;
 }
 #header_connect{
     margin-left:15px;
@@ -63,7 +63,7 @@ header{
     min-width:140px;
     max-width:140px;
     border-radius: 5px;
-    background-color:rgb(60, 195, 159);
+    background-color: #01C3A7;
 
 }
 #header_help{
