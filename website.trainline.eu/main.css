@@ -79,4 +79,8 @@ header{
     min-width: 40px;
     max-width: 40px;
 }
+#header_language img{
+    border: 2px solid #C0C9CC;
+    border-radius: 5px;
+}
 
