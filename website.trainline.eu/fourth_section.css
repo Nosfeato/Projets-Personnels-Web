@@ -1,0 +1,27 @@
+#fourth_section{
+    box-sizing: border-box;
+    height: 400px;
+    text-align: center;
+    background-color: rgb(60, 195, 159);
+    color: white;
+    align-content: middle;
+    padding: 20px 0;
+}
+#fourth_section h1{
+    font-size: 28px;
+}
+#fourth_section span{
+    font-size: 18px;
+}
+#fourth_section button{
+    color: white;
+    display: block;
+    margin: 1em auto;
+    border: none;
+    background: rgb(31, 33, 158);
+    border-radius: 8px;
+    height: 40px;
+    width: 180px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
