@@ -1,0 +1,18 @@
+#fifth_section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#fifth_section h2{
+    color: #21314D;
+    font-size: 32px;
+}
+
+#fifth_section p{
+    color: #8C8A8C;
+    font-size: 19px;
+    margin: 0;
+    line-height: 1.5em;
+}

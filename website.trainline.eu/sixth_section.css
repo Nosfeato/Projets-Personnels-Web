@@ -2,7 +2,7 @@
     box-sizing: border-box;
     height: 220px;
     text-align: center;
-    background: rgb(30, 101, 158);
+    background: #3F618C;
     color: white;
     align-content: middle;
     padding: 0px 0;
@@ -18,7 +18,7 @@
     display: block;
     margin: 1em auto;
     border: none;
-    background: rgb(60, 202, 171);
+    background: #01C3A7;
     border-radius: 8px;
     height: 40px;
     width: 180px;
